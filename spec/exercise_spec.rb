@@ -3,9 +3,9 @@ describe "Strings" do
     
     it "should make all letters in the string uppercase" do
       
-      test_string = "this is a string with no capitals in it"
+      test_string = "this is a string with only capitals in it"
       
-      test_string.upcase.should eq "this Is a string with no capitals in it"
+      test_string.upcase.should eq "THIS IS A STRING WITH ONLY CAPITALS IN IT"
     end
     
   end
